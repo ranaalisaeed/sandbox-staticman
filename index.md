@@ -1,6 +1,6 @@
 ## Test comments
 
-<form method="POST" action="https://alir-staticman-app.herokuapp.com/v2/entry/ranaalisaeed/sandbox-staticman/gh-pages/comments">
+<form method="POST" action="https://alir-staticman-app.herokuapp.com/v3/entry/ranaalisaeed/sandbox-staticman/gh-pages/comments">
   <input name="options[redirect]" type="hidden" value="https://ranaalisaeed.github.io/sandbox-staticman/">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
