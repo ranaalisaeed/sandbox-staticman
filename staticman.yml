@@ -1,0 +1,25 @@
+comments:
+  allowedFields: ["name", "email", "url", "message"]
+  branch: "gh-pages"
+  commitMessage: "Add Staticman data"
+  filename: "entry{@timestamp}"
+  format: "yaml"
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
+  moderation: true
+  name: "eduardoboucas.com"
+  #notifications:
+    #enabled: true
+    # (!) ENCRYPTED
+    # Mailgun API key
+    #apiKey: "1q2w3e4r"
+    # (!) ENCRYPTED
+    # Mailgun domain (encrypted)
+    #domain: "4r3e2w1q"
+  path: "_data/comments/{options.slug}"
+  requiredFields: ["name", "email", "message"]
+  transforms:
+    email: md5
